@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &3250040719213181070
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3218317301184205365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48986447, y: 0.047465384, z: 0.4306705}
+  m_Center: {x: -0.24192315, y: 0.0208309, z: -0.2097404}
+--- !u!1001 &2335304806934589284
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.4705651
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.98418e-19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.79574
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24d7148ea5889294d9b865d669a721df,
+        type: 3}
+      propertyPath: m_Name
+      value: 185A1A4DLinkEthernetSwitch Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24d7148ea5889294d9b865d669a721df, type: 3}
+--- !u!1 &3218317301184205365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 24d7148ea5889294d9b865d669a721df,
+    type: 3}
+  m_PrefabInstance: {fileID: 2335304806934589284}
+  m_PrefabAsset: {fileID: 0}

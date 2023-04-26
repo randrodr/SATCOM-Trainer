@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &7556438957604480169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314189218189956003}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07999559, y: 0.5889347, z: 0.0780283}
+  m_Center: {x: 0.2641218, y: 0.28716823, z: 0.030084034}
+--- !u!65 &1387708871076518512
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182859966656671630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.120886475, y: 0.5564496, z: 0.0785209}
+  m_Center: {x: 0.24350421, y: 0.7442809, z: 0.029436523}
+--- !u!65 &7007258421064356619
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121979958627247895}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07036133, y: 0.58739924, z: 0.08165257}
+  m_Center: {x: 0.0112183895, y: 0.2864005, z: 0.031896167}
+--- !u!114 &1079480850914095948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121979958627247895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: 3c36410108a441c47b9fbf9a172b4ff1, type: 2}
+  displayName: Lifting Strap
+  extraRenderers:
+  - {fileID: 2259897844881683062}
+  - {fileID: 1840101271971450459}
+  - {fileID: 3279716145913599508}
+--- !u!65 &2932540314184948124
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3928009711762585537}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1457293, y: 0.55527407, z: 0.08078919}
+  m_Center: {x: 0.04873016, y: 0.74486876, z: 0.030541986}
+--- !u!1001 &620741092072320754
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1601338815195774381}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec9659bef41442b42b59847ab2f8bdc8,
+        type: 3}
+      propertyPath: m_Name
+      value: MPU Lift Straps 004
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec9659bef41442b42b59847ab2f8bdc8, type: 3}
+--- !u!1 &314189218189956003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ec9659bef41442b42b59847ab2f8bdc8,
+    type: 3}
+  m_PrefabInstance: {fileID: 620741092072320754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2259897844881683062 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: ec9659bef41442b42b59847ab2f8bdc8,
+    type: 3}
+  m_PrefabInstance: {fileID: 620741092072320754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1029301188983050975
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1601338815195774381}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+        type: 3}
+      propertyPath: m_Name
+      value: MPU Lift Straps 003
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 722c4f437de015e4b8a99dd4d120b7f5, type: 3}
+--- !u!1 &182859966656671630 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1029301188983050975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1840101271971450459 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 722c4f437de015e4b8a99dd4d120b7f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1029301188983050975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1275539412623858246
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dac7181fbcf0881429604e7f0637c52c,
+        type: 3}
+      propertyPath: m_Name
+      value: MPU Lift Straps 001 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dac7181fbcf0881429604e7f0637c52c, type: 3}
+--- !u!1 &2121979958627247895 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dac7181fbcf0881429604e7f0637c52c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1275539412623858246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1601338815195774381 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dac7181fbcf0881429604e7f0637c52c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1275539412623858246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4198042960491285136
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1601338815195774381}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cd3c7441807bfa43a62f46953b1b505,
+        type: 3}
+      propertyPath: m_Name
+      value: MPU Lift Straps 002
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7cd3c7441807bfa43a62f46953b1b505, type: 3}
+--- !u!1 &3928009711762585537 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7cd3c7441807bfa43a62f46953b1b505,
+    type: 3}
+  m_PrefabInstance: {fileID: 4198042960491285136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3279716145913599508 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 7cd3c7441807bfa43a62f46953b1b505,
+    type: 3}
+  m_PrefabInstance: {fileID: 4198042960491285136}
+  m_PrefabAsset: {fileID: 0}

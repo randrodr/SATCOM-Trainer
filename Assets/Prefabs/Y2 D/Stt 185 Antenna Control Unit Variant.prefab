@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &716816574249191971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7944147707595579390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.63909775, y: 0.09012747, z: 0.48487267}
+  m_Center: {x: -0.32030198, y: 0.042124808, z: 0.24213235}
+--- !u!95 &2787089410704458026
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7944147707595579390}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f7e4ade975fad1f4a9917e0daa30fd51, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &361924608319061440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7944147707595579390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd8e821cbae623243ab558668f4eeb83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  set: {fileID: 11400000, guid: 8dc865ea3495300458d9f561aa44250e, type: 2}
+--- !u!114 &7024319461980101996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7944147707595579390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: Antenna Control Unit
+--- !u!65 &5180264092077085800
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9047900528942948509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00854749, y: 0.018933635, z: 0.015236106}
+  m_Center: {x: 0.0014309054, y: 0.00013100542, z: -0.000013133511}
+--- !u!114 &6292293547353751406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9047900528942948509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: d2dc14097211df544802da0d6ecef989, type: 2}
+  displayName: ACU Power Switch
+--- !u!1001 &7133175770456449711
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f6e45cb758176ed498630bcbf259831c,
+        type: 3}
+      propertyPath: m_Name
+      value: Stt 185 Antenna Control Unit Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6e45cb758176ed498630bcbf259831c, type: 3}
+--- !u!1 &7944147707595579390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f6e45cb758176ed498630bcbf259831c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7133175770456449711}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9047900528942948509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2264949999341945394, guid: f6e45cb758176ed498630bcbf259831c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7133175770456449711}
+  m_PrefabAsset: {fileID: 0}

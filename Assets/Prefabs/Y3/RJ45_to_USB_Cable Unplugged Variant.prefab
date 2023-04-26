@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &700839177085765628
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3065404785476943711}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.066094086, y: 0.017951917, z: 0.013055511}
+  m_Center: {x: -0.020047048, y: -5.9744876e-10, z: 0.0000000010337682}
+--- !u!114 &3097675267795994006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3065404785476943711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: bec97c23d5dd3484c889ed4551e2bbe6, type: 2}
+  displayName: Console Cable
+  extraRenderers: []
+--- !u!1001 &2759555076471095822
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5348
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7654
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0861
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.20937644
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.67539734
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6753973
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.20937634
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -145.55301
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a74328c6d16f61141800a3e59190dec2,
+        type: 3}
+      propertyPath: m_Name
+      value: RJ45_to_USB_Cable Unplugged Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a74328c6d16f61141800a3e59190dec2, type: 3}
+--- !u!1 &3065404785476943711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a74328c6d16f61141800a3e59190dec2,
+    type: 3}
+  m_PrefabInstance: {fileID: 2759555076471095822}
+  m_PrefabAsset: {fileID: 0}

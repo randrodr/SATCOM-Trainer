@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &-8326458036701054341
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741712460564844005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48473364, y: 0.04661858, z: 0.42716402}
+  m_Center: {x: -0.2412534, y: 0.02192095, z: -0.20984563}
+--- !u!95 &6168180223046281837
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741712460564844005}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 334f244fefbe79944b2ad1a0c1dc2c78, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3093629568044239445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741712460564844005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd8e821cbae623243ab558668f4eeb83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  set: {fileID: 11400000, guid: 8dc865ea3495300458d9f561aa44250e, type: 2}
+--- !u!114 &9017782941963009835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741712460564844005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: Linkway TDMA modem
+--- !u!136 &8261303222494925749
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8010213025060282328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.010483451
+  m_Height: 0.006594925
+  m_Direction: 1
+  m_Center: {x: -0.00000002142042, y: 0.00008867413, z: 0.010875447}
+--- !u!114 &1613072629296253585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8010213025060282328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: b43fc6430522d084fa2fb1b6b3158376, type: 2}
+  displayName: TDMA Power Switch
+--- !u!1001 &4859314583651479732
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.4804484
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.1207472e-19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.1243676
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8186160086239046681, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.21795106
+      objectReference: {fileID: 0}
+    - target: {fileID: -8186160086239046681, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9759598
+      objectReference: {fileID: 0}
+    - target: {fileID: -8186160086239046681, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -25.177002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8186160086239046681, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8186160086239046681, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8186160086239046681, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8186160086239046681, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cebc6e85c76e344448d6c26117f06135,
+        type: 3}
+      propertyPath: m_Name
+      value: TDMAModem Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cebc6e85c76e344448d6c26117f06135, type: 3}
+--- !u!1 &5741712460564844005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cebc6e85c76e344448d6c26117f06135,
+    type: 3}
+  m_PrefabInstance: {fileID: 4859314583651479732}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8010213025060282328 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6033065861151510676, guid: cebc6e85c76e344448d6c26117f06135,
+    type: 3}
+  m_PrefabInstance: {fileID: 4859314583651479732}
+  m_PrefabAsset: {fileID: 0}

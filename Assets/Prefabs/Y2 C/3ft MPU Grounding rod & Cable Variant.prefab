@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7127706755392579823
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.016
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.614
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.755
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 06e0d760c846a344fb3eb4b29ef0d9fd, type: 2}
+    - target: {fileID: -6809941738019633984, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    - target: {fileID: -5092590215234672716, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    - target: {fileID: -1576026098714833669, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    - target: {fileID: -915373623294370437, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    - target: {fileID: -287206448303434373, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 06e0d760c846a344fb3eb4b29ef0d9fd, type: 2}
+    - target: {fileID: 919132149155446097, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_Name
+      value: 3ft MPU Grounding rod & Cable Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390973696696527101, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    - target: {fileID: 1430898898348910073, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    - target: {fileID: 7319434401598601494, guid: b7488dcb3cf34124cb840327e80efd67,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 06e0d760c846a344fb3eb4b29ef0d9fd, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b7488dcb3cf34124cb840327e80efd67, type: 3}

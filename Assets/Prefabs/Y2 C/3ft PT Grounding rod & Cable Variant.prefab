@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3019291156865871083
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.1383
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5817
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 06e0d760c846a344fb3eb4b29ef0d9fd, type: 2}
+    - target: {fileID: -5933981663713341022, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    - target: {fileID: -5579986754960883273, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 06e0d760c846a344fb3eb4b29ef0d9fd, type: 2}
+    - target: {fileID: -4188183361911610928, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    - target: {fileID: -1189636632621413689, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    - target: {fileID: -36664864393706372, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    - target: {fileID: 919132149155446097, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_Name
+      value: 3ft PT Grounding rod & Cable Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3600329569592914920, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    - target: {fileID: 7774244930485222924, guid: bb5d99e82c9749449a5afd7469274b9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbc29b19d94563841935ea0e6c8a7b69, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb5d99e82c9749449a5afd7469274b9b, type: 3}

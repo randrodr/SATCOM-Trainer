@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b450f6328f1eef1488e19fd194dab736, type: 3}
+  m_Name: Y2A_Triggers
+  m_EditorClassIdentifier: 
+  Items:
+  - {fileID: 11400000, guid: 543e368a9c6fb8941845227ccf239abd, type: 2}
+  - {fileID: 11400000, guid: 4c0c926134cdfd84c8a9c9062a3928c3, type: 2}
+  - {fileID: 11400000, guid: ecdbe09bb6c321e4b81077bf777dd3e3, type: 2}
+  - {fileID: 11400000, guid: 6582fbc31edc92e4fb7ec66d65201819, type: 2}
+  - {fileID: 11400000, guid: 7389f9a01f283c845b7791d0e1eea2e9, type: 2}
+  - {fileID: 11400000, guid: e98fe272453838440aa329e333df321e, type: 2}

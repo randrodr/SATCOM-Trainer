@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7769583121687110090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 645128217102835397}
+  - component: {fileID: 2157859843926475532}
+  m_Layer: 0
+  m_Name: plug end for cable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &645128217102835397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7769583121687110090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.101, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9192286393731051241}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2157859843926475532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7769583121687110090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4da82e7150eae742b6c00adf0d89fcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transformVariable: {fileID: 11400000, guid: 583646f54e0335d48943ad11056b6692, type: 2}
+  continuous: 1
+--- !u!136 &3565767753984123919
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8420147358591792211}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.0334095
+  m_Height: 0.2277602
+  m_Direction: 0
+  m_Center: {x: 0.00090283155, y: -0.0012128651, z: 0.00012483448}
+--- !u!114 &5657545802038425424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8420147358591792211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: 3484c77c71595ed4bb6500b358441996, type: 2}
+  displayName: TQG Power Cable
+  extraRenderers:
+  - {fileID: 6719108324369939185}
+  - {fileID: 1908593023812116151}
+  - {fileID: 7894654021084104230}
+  - {fileID: 29498127820204919}
+  - {fileID: 2313190981332119275}
+  - {fileID: 7265598566385454288}
+  - {fileID: 6870310119916716019}
+--- !u!1001 &8654571276268177666
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.297
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.264
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+        type: 3}
+      propertyPath: m_Name
+      value: TQGPowerCablePlugs Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e, type: 3}
+--- !u!1 &8420147358591792211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8654571276268177666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9192286393731051241 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8654571276268177666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6719108324369939185 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2676307866766488563, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8654571276268177666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1908593023812116151 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7090804943289817013, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8654571276268177666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7894654021084104230 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7668428700218536156, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8654571276268177666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &29498127820204919 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8679556733347078773, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8654571276268177666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2313190981332119275 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2881973590759856151, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8654571276268177666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7265598566385454288 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2076055929987368402, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8654571276268177666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6870310119916716019 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -6394258114028521743, guid: cdb8c2cb1ddd6394fb47f5f4aa8e078e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8654571276268177666}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d6bf345fd806f418ed22a6035d73be, type: 3}
+  m_Name: Y2C_Animators
+  m_EditorClassIdentifier: 
+  Items:
+  - {fileID: 9100000, guid: 9d995001fb4c0a14ba21b5dc9472fc3d, type: 2}
+  - {fileID: 9100000, guid: 338c540fb555e0943926860516108d0f, type: 2}
+  - {fileID: 9100000, guid: d4b6a42cbcfc9b14bbffc406b9b7609b, type: 2}
+  - {fileID: 9100000, guid: 0a85500bcd3bb154b8c53fa027dcef4e, type: 2}

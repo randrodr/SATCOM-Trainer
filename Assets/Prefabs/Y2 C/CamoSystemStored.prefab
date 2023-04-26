@@ -1,0 +1,794 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8147633786775607577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5965877572304178672}
+  - component: {fileID: 6498321079441868133}
+  - component: {fileID: 929821836200409836}
+  - component: {fileID: 1771827466477340343}
+  m_Layer: 0
+  m_Name: CamoSystemStored
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5965877572304178672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8147633786775607577}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01, y: 0.845, z: -1.778}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3932945704478648329}
+  - {fileID: 4281549153881756199}
+  - {fileID: 7914757742767819099}
+  - {fileID: 6065421653357038048}
+  - {fileID: 7320595806304943442}
+  - {fileID: 1808770192308134801}
+  - {fileID: 7595001692786254252}
+  - {fileID: 5594370700395378942}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6498321079441868133
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8147633786775607577}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1991485, y: 0.6377926, z: 0.7444}
+  m_Center: {x: 0.01518923, y: -0.2832749, z: -0.105663896}
+--- !u!65 &929821836200409836
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8147633786775607577}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9696214, y: 0.2507379, z: 0.98649836}
+  m_Center: {x: 0.015189305, y: 0.3056301, z: 0.71896064}
+--- !u!114 &1771827466477340343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8147633786775607577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: 57ba135ac91e699448112e99d780d532, type: 2}
+  displayName: Camo Support System
+  extraRenderers:
+  - {fileID: 2801113192125092710}
+  - {fileID: 3107539379780905288}
+  - {fileID: 9051657900856783412}
+  - {fileID: 4929075473974096527}
+  - {fileID: 8492900239212725821}
+  - {fileID: 671359827268114686}
+  - {fileID: 8731900303615204035}
+  - {fileID: 6766691836430156689}
+--- !u!1001 &2202457672033895546
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5965877572304178672}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.139
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1970228
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.71099997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b84e32789ce824c4ba1134d3af6d1fa6, type: 2}
+    - target: {fileID: 919132149155446097, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+        type: 3}
+      propertyPath: m_Name
+      value: Camo Support Bag small 002
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dcdcef57251b0d94ca4eb048f1ca2f7d, type: 3}
+--- !u!4 &1808770192308134801 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2202457672033895546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &671359827268114686 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: dcdcef57251b0d94ca4eb048f1ca2f7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2202457672033895546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3539292997414047714
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5965877572304178672}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.031999998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.3060001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.072999954
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.49949965
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5001621
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.51300603
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.48699367
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -88.548004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.47201
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -180.00099
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.89907384
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b84e32789ce824c4ba1134d3af6d1fa6, type: 2}
+    - target: {fileID: 919132149155446097, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_Name
+      value: Camo Support Bag Large
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0d789c554f84dad4fa83bc4705a5066e, type: 3}
+--- !u!4 &3932945704478648329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3539292997414047714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2801113192125092710 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 0d789c554f84dad4fa83bc4705a5066e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3539292997414047714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4386971371729745356
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5965877572304178672}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.019
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.62900007
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.181
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.47852835
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.52058685
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.52058685
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4785283
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -94.82101
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8712834
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_Name
+      value: Camo Support Bag Med
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3, type: 3}
+--- !u!4 &4281549153881756199 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4386971371729745356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3107539379780905288 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4386971371729745356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5343956357975777045
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5965877572304178672}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.31016782
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1970228
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.7108072
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b84e32789ce824c4ba1134d3af6d1fa6, type: 2}
+    - target: {fileID: 919132149155446097, guid: 748121012d9b5494aba43ebd7488dfd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Camo Support Bag small 004
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 748121012d9b5494aba43ebd7488dfd2, type: 3}
+--- !u!4 &5594370700395378942 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 748121012d9b5494aba43ebd7488dfd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5343956357975777045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6766691836430156689 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 748121012d9b5494aba43ebd7488dfd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5343956357975777045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6027520161856253451
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5965877572304178672}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.019
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.151
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.028
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5092704
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4905547
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.49055442
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.50927025
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -272.145
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8990739
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b84e32789ce824c4ba1134d3af6d1fa6, type: 2}
+    - target: {fileID: 919132149155446097, guid: 0d789c554f84dad4fa83bc4705a5066e,
+        type: 3}
+      propertyPath: m_Name
+      value: Camo Support Bag Large (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0d789c554f84dad4fa83bc4705a5066e, type: 3}
+--- !u!4 &6065421653357038048 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0d789c554f84dad4fa83bc4705a5066e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6027520161856253451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4929075473974096527 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 0d789c554f84dad4fa83bc4705a5066e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6027520161856253451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7069879991562427065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5965877572304178672}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.35505846
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1970228
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.73112214
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b84e32789ce824c4ba1134d3af6d1fa6, type: 2}
+    - target: {fileID: 919132149155446097, guid: fac23063514a9fc48ba3393bb4fbbce2,
+        type: 3}
+      propertyPath: m_Name
+      value: Camo Support Bag small 001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fac23063514a9fc48ba3393bb4fbbce2, type: 3}
+--- !u!4 &7320595806304943442 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fac23063514a9fc48ba3393bb4fbbce2,
+    type: 3}
+  m_PrefabInstance: {fileID: 7069879991562427065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8492900239212725821 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: fac23063514a9fc48ba3393bb4fbbce2,
+    type: 3}
+  m_PrefabInstance: {fileID: 7069879991562427065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7664114220019986096
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5965877572304178672}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.454
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.15400004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5143302
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.48453233
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.47593564
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.52362025
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -88.97401
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 85.560005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -360
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8712834
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+        type: 3}
+      propertyPath: m_Name
+      value: Camo Support Bag Med (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3, type: 3}
+--- !u!4 &7914757742767819099 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7664114220019986096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &9051657900856783412 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: f5e7fe0ea062d0d4b8fb0666eeb215e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7664114220019986096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7992874153566701127
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5965877572304178672}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.072000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1970228
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.71500003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b84e32789ce824c4ba1134d3af6d1fa6, type: 2}
+    - target: {fileID: 919132149155446097, guid: a86133fe89811444e8d60dd8c5e259a6,
+        type: 3}
+      propertyPath: m_Name
+      value: Camo Support Bag small 003
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a86133fe89811444e8d60dd8c5e259a6, type: 3}
+--- !u!4 &7595001692786254252 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a86133fe89811444e8d60dd8c5e259a6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7992874153566701127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8731900303615204035 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: a86133fe89811444e8d60dd8c5e259a6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7992874153566701127}
+  m_PrefabAsset: {fileID: 0}

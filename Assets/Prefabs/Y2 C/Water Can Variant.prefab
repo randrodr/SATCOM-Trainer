@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &5624480015613102595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6548358738606361689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: 7ce1bca6bd7761447a94724caaff8aeb, type: 2}
+  displayName: Water Can
+  extraRenderers:
+  - {fileID: 2463272446812698925}
+  - {fileID: 12242523363466050}
+  - {fileID: 5373052385180356530}
+  - {fileID: 3226977987099716448}
+--- !u!65 &3651558206230759103
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6548358738606361689}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.34719697, y: 0.1331753, z: 0.46939385}
+  m_Center: {x: -0.000015407571, y: -0.000000041984332, z: 0.23469697}
+--- !u!1001 &6206268433650692360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.861
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.304
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.486
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0056197564
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70708454
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7070844
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00561976
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -180.911
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2ffbd5811218b304bbcd289ea81763ad,
+        type: 3}
+      propertyPath: m_Name
+      value: Water Can Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ffbd5811218b304bbcd289ea81763ad, type: 3}
+--- !u!1 &6548358738606361689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2ffbd5811218b304bbcd289ea81763ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 6206268433650692360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2463272446812698925 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8362715563385882661, guid: 2ffbd5811218b304bbcd289ea81763ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 6206268433650692360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &12242523363466050 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -3023491222854178230, guid: 2ffbd5811218b304bbcd289ea81763ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 6206268433650692360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5373052385180356530 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2067700812825870010, guid: 2ffbd5811218b304bbcd289ea81763ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 6206268433650692360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3226977987099716448 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -366586918434153880, guid: 2ffbd5811218b304bbcd289ea81763ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 6206268433650692360}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!136 &1839718638787611147
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011306107330813054}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.17390285
+  m_Height: 0.7804588
+  m_Direction: 1
+  m_Center: {x: 0.00670141, y: -0.012172223, z: 0.16539006}
+--- !u!114 &2301046489240661468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011306107330813054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: 48188dee989775147abbe8c741fc48cb, type: 2}
+  displayName: Grounding Kit
+--- !u!1001 &1668849668224442671
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5630524
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.010758006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0025138557
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ebb9b42deac761449fee3ea650e47c9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bag Closed
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ebb9b42deac761449fee3ea650e47c9, type: 3}
+--- !u!1 &2011306107330813054 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7ebb9b42deac761449fee3ea650e47c9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1668849668224442671}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &5971682125472504427
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9041578517269834816}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5628637, y: 0.9851253, z: 0.6565725}
+  m_Center: {x: 0.004476309, y: -0.00037240985, z: 0.31633377}
+--- !u!114 &7538755632124300852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9041578517269834816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: 2c53f5feaf142ca45be2e2715a79640c, type: 2}
+  displayName: C-Band Transit Case
+  extraRenderers: []
+--- !u!65 &4386895217865282079
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2918774499464728534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13993387, y: 0.021776104, z: 0.072861746}
+  m_Center: {x: 0.00070428103, y: 0.0060756067, z: -0.02213232}
+--- !u!114 &6185572734782466870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2918774499464728534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: c6984d67876e93046b6dd77aacc5c5c2, type: 2}
+  displayName: C-Band Transit Case Handles
+  extraRenderers:
+  - {fileID: 6995870219957755696}
+  - {fileID: 8065431891089580147}
+  - {fileID: 3515582154584623158}
+  - {fileID: 6724302083001410599}
+--- !u!65 &168263398889904212
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978438912281617899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.14223899, y: 0.020065393, z: 0.07288098}
+  m_Center: {x: -0.0008349344, y: 0.005220249, z: -0.02480867}
+--- !u!114 &2178499349732689975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978438912281617899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: c6984d67876e93046b6dd77aacc5c5c2, type: 2}
+  displayName: C-Band Transit Case Handles
+  extraRenderers:
+  - {fileID: 6995870219957755696}
+  - {fileID: 8065431891089580147}
+  - {fileID: 3515582154584623158}
+  - {fileID: 6724302083001410599}
+--- !u!65 &6922036517794721063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900028650853419878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13958493, y: 0.034292553, z: 0.07254937}
+  m_Center: {x: -0.0010778904, y: -0.012345874, z: -0.022707004}
+--- !u!114 &1709781721608553114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900028650853419878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: c6984d67876e93046b6dd77aacc5c5c2, type: 2}
+  displayName: C-Band Transit Case Handles
+  extraRenderers:
+  - {fileID: 6995870219957755696}
+  - {fileID: 8065431891089580147}
+  - {fileID: 3515582154584623158}
+  - {fileID: 6724302083001410599}
+--- !u!65 &6882435526174825191
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5810123099110513038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.14002559, y: 0.024115793, z: 0.07485525}
+  m_Center: {x: 0.0006687492, y: -0.0072575323, z: -0.024616307}
+--- !u!114 &3619073747052767082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5810123099110513038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: c6984d67876e93046b6dd77aacc5c5c2, type: 2}
+  displayName: C-Band Transit Case Handles
+  extraRenderers:
+  - {fileID: 6995870219957755696}
+  - {fileID: 8065431891089580147}
+  - {fileID: 3515582154584623158}
+  - {fileID: 6724302083001410599}
+--- !u!65 &2093387977488455403
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681446507355439055}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.013490037, y: 0.03598961, z: 0.10005988}
+  m_Center: {x: 0.000002338551, y: 0.0000000046566133, z: -0.043286037}
+--- !u!114 &156043606057250053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681446507355439055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: placeholder
+  extraRenderers: []
+--- !u!65 &604445433838703012
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3152918628728403380}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.019681443, y: 0.046204176, z: 0.09087322}
+  m_Center: {x: -0.00335229, y: 0.000026365742, z: -0.02627014}
+--- !u!114 &2863304750210854482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3152918628728403380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: placeholder
+  extraRenderers: []
+--- !u!65 &6599294926421876291
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4194009988928391406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.019681443, y: 0.046204176, z: 0.09087322}
+  m_Center: {x: -0.00335229, y: 0.000026365742, z: -0.02627014}
+--- !u!114 &4739861714136259085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4194009988928391406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: placeholder
+  extraRenderers: []
+--- !u!65 &3743530456739212824
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7808196925301709913}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.019681443, y: 0.046204176, z: 0.09087322}
+  m_Center: {x: -0.00335229, y: 0.000026365742, z: -0.02627014}
+--- !u!114 &6213062514245650856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7808196925301709913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: placeholder
+  extraRenderers: []
+--- !u!1001 &8195225380427583761
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00044731796
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 848310470050a71478d9dbfcacee07a5,
+        type: 3}
+      propertyPath: m_Name
+      value: C-Band Transit Case Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 848310470050a71478d9dbfcacee07a5, type: 3}
+--- !u!1 &9041578517269834816 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2918774499464728534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6429693178826628807, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6995870219957755696 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1201644120653041185, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1978438912281617899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1526832813247171334, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8065431891089580147 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7037611628599791262, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1900028650853419878 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7774633446601136759, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3515582154584623158 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4715991497833371943, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5810123099110513038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6837873546641749857, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6724302083001410599 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3236626942011716918, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1681446507355439055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7417139005174263518, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3152918628728403380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6519559529128502437, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4194009988928391406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5444667012496398847, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7808196925301709913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2154694983221841224, guid: 848310470050a71478d9dbfcacee07a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8195225380427583761}
+  m_PrefabAsset: {fileID: 0}

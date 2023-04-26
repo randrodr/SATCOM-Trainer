@@ -1,0 +1,318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &5379194856210744235
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097847543774439782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.060374618, y: 0.37496167, z: 0.06124664}
+  m_Center: {x: -0.0017554164, y: -0.0850651, z: 0.000000052154064}
+--- !u!65 &5639348263755270675
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097847543774439782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.061836272, y: 0.4744997, z: 0.06124664}
+  m_Center: {x: 0.0590439, y: -0.4016614, z: 0.000000052154064}
+--- !u!114 &4606646192979296341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097847543774439782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: 314471368b242c842b7fa35c691612d1, type: 2}
+  displayName: Stablilizer Jack Leg
+  extraRenderers:
+  - {fileID: 7330191831242776124}
+--- !u!65 &1675223997976514773
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2423354578428997155}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.054771956, y: 0.58285135, z: 0.054772645}
+  m_Center: {x: -0.000000033527613, y: 0.032941043, z: -0.00000006239861}
+--- !u!65 &4043583960139956435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5871422576603577465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.11404434, y: 0.014485806, z: 0.21815947}
+  m_Center: {x: 0.000000074505806, y: 0.007154241, z: -0.00000014901161}
+--- !u!65 &4484622408281417496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5871422576603577465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.048044205, y: 0.37970147, z: 0.049682617}
+  m_Center: {x: 0, y: 0.18976207, z: -0.002603531}
+--- !u!114 &4684413382685735890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5871422576603577465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: 9e46f33ccd6cbfd4db8237ccd7435826, type: 2}
+  displayName: Stabilizer Jack Foot
+  extraRenderers: []
+--- !u!65 &1130594695434715109
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266140140272085182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0047473907, y: 0.041720238, z: 0.03718994}
+  m_Center: {x: 0.03301525, y: -0.0140516665, z: 0}
+--- !u!136 &2479358838387086978
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266140140272085182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.015935767
+  m_Height: 0.08201218
+  m_Direction: 0
+  m_Center: {x: 0.003821373, y: 0, z: 0}
+--- !u!114 &4225727942002431201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266140140272085182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: c0e5e4f4031066d43b46d401e5b3a4cb, type: 2}
+  displayName: Holding Pin
+  extraRenderers: []
+--- !u!136 &1674006345126945698
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420012624027553356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.0063281655
+  m_Height: 0.048157215
+  m_Direction: 0
+  m_Center: {x: 0.017709851, y: 0.00023537874, z: 0.00014774501}
+--- !u!136 &7606991265873179942
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420012624027553356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.006590605
+  m_Height: 0.16289723
+  m_Direction: 1
+  m_Center: {x: 0.0409019, y: -0.07316607, z: 0.00014774501}
+--- !u!136 &9164130856979794047
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420012624027553356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.018958598
+  m_Height: 0.14160717
+  m_Direction: 0
+  m_Center: {x: 0.11244291, y: -0.14524046, z: 0.00014774501}
+--- !u!114 &3483257483680947923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420012624027553356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 11400000, guid: 9359e82b32759a64787fa57f0ec7a2ae, type: 2}
+  displayName: Jack Leg Crank
+  extraRenderers: []
+--- !u!1001 &5367825135095567415
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5630865
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.6417284
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+        type: 3}
+      propertyPath: m_Name
+      value: PhoenixTerminalStabilizerLeg Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fbf77dcfd36c7243b6495ff2f088c67, type: 3}
+--- !u!1 &5097847543774439782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+    type: 3}
+  m_PrefabInstance: {fileID: 5367825135095567415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2423354578428997155 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1450400270514423276, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+    type: 3}
+  m_PrefabInstance: {fileID: 5367825135095567415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7330191831242776124 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -5781414489912325621, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+    type: 3}
+  m_PrefabInstance: {fileID: 5367825135095567415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5871422576603577465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1947001157018904654, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+    type: 3}
+  m_PrefabInstance: {fileID: 5367825135095567415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3266140140272085182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7434864238587755657, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+    type: 3}
+  m_PrefabInstance: {fileID: 5367825135095567415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4420012624027553356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8586484964666595963, guid: 8fbf77dcfd36c7243b6495ff2f088c67,
+    type: 3}
+  m_PrefabInstance: {fileID: 5367825135095567415}
+  m_PrefabAsset: {fileID: 0}

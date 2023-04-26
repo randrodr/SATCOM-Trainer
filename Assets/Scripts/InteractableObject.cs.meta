@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 07ab2a252a6ccc640887bd22a3a9be28
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - thisTrigger: {instanceID: 0}
+  - onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  - eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  - interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+      type: 2}
+  - cursorManager: {fileID: 11400000, guid: 3bc4615f5f701ff44a3b91f86bb98777, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

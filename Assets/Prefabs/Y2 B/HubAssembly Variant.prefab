@@ -1,0 +1,342 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &7088651663705440927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715596489174104464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.34774822, y: 0.24849303, z: 0.39069152}
+  m_Center: {x: -0.017872125, y: 0, z: 0}
+--- !u!114 &4154070972098272862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715596489174104464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: RF Feed Interface Plate
+  extraRenderers: []
+--- !u!65 &7342361901776462970
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2685155000335232028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17448807, y: 0.0714781, z: 0.375611}
+  m_Center: {x: 0, y: 0.0127529055, z: -0.054088265}
+--- !u!114 &4379676245985713043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2685155000335232028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: Ka-Band Block Downcoverter (BDC)
+  extraRenderers: []
+--- !u!65 &6769687130788051009
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247538041510387970}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.56260586, y: 1.4245518, z: 1.3535544}
+  m_Center: {x: 0.065503836, y: -0.1404348, z: 0.00024551153}
+--- !u!114 &6706416472323386222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247538041510387970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: Hub Assembly
+  extraRenderers: []
+--- !u!65 &7282987324357883291
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621877249005190519}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2266061, y: 1.2601287, z: 0.11198448}
+  m_Center: {x: 0.29001725, y: 0, z: -0.024949186}
+--- !u!114 &2414072121701923917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621877249005190519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: Hub Assembly
+  extraRenderers: []
+--- !u!65 &705360419055586565
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782411828177722225}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25577474, y: 0.079595566, z: 0.5794102}
+  m_Center: {x: 0.0466007, y: 0.010315418, z: 0.06261116}
+--- !u!114 &3199203539347075711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782411828177722225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: Ka-Band Block Upconverters (BUC)
+  extraRenderers: []
+--- !u!65 &518410636096486057
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5138246228017937840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2387578, y: 1.2601287, z: 0.10231994}
+  m_Center: {x: 0.2960931, y: 0, z: 0.041572087}
+--- !u!114 &1694563141014461235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5138246228017937840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: Hub Assembly
+  extraRenderers: []
+--- !u!114 &4626349294861385955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5488398739285546904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ab2a252a6ccc640887bd22a3a9be28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: {fileID: 11400000, guid: ba89d0f631f4b7e4dbd696d1bd9229a7, type: 2}
+  eventField: {fileID: 11400000, guid: bed7a666862aa254cb2e68653c76acaa, type: 2}
+  interactableObjectsInScene: {fileID: 11400000, guid: fc8bedace7ef05346acd717fd3204d4a,
+    type: 2}
+  thisTrigger: {fileID: 0}
+  displayName: Ka-Band Block Downcoverter (BDC)
+  extraRenderers: []
+--- !u!65 &5624312893381054463
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5488398739285546904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17448807, y: 0.14578363, z: 0.37726992}
+  m_Center: {x: 0, y: 0.049905673, z: -0.07357672}
+--- !u!1001 &2436723880933874771
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.9790008
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.88
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.13600016
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_Name
+      value: HubAssembly Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06d1cf7b18c33374eb37eb8d12f5f1de, type: 3}
+--- !u!1 &3247538041510387970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+    type: 3}
+  m_PrefabInstance: {fileID: 2436723880933874771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5138246228017937840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1828939954781576733, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+    type: 3}
+  m_PrefabInstance: {fileID: 2436723880933874771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5488398739285546904 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1298638790610957365, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+    type: 3}
+  m_PrefabInstance: {fileID: 2436723880933874771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2685155000335232028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 329727364791414863, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+    type: 3}
+  m_PrefabInstance: {fileID: 2436723880933874771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4782411828177722225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7173795835043284770, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+    type: 3}
+  m_PrefabInstance: {fileID: 2436723880933874771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &715596489174104464 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2899953408611673539, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+    type: 3}
+  m_PrefabInstance: {fileID: 2436723880933874771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3621877249005190519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1410617749314707748, guid: 06d1cf7b18c33374eb37eb8d12f5f1de,
+    type: 3}
+  m_PrefabInstance: {fileID: 2436723880933874771}
+  m_PrefabAsset: {fileID: 0}
